@@ -108,7 +108,7 @@ This allows us to use the `PM$` as we've set the `PMBASE` address high byte into
 With these series of commands, we have set the color of our Player 0, turned on DMA control with the following modes:
 
     +-------------------------------------------------+
-    + Option |                                | Value |
+    + Option                                  | Value |
     +-------------------------------------------------+
     | No playfield                            |   0   |
     | Playfield size:                         |       |
@@ -258,7 +258,7 @@ Update the Player 0 PMG memory position.
 The player graphics model is relatively simple.  Each rendered row consists of a single byte or 8 bits.  Each bit determines if a pixel is on or off.  In the case of the above `DATA` we are rendering 8 rows of 1 byte of data per row or, and 8x8 bit image.  See the following player graphic bit table:
 
     Value     Binary      Visual Result
-    
+
       60      00111100        XXXX
      126      01111110       XXXXXX
      247      11110111      XXXX XXX
