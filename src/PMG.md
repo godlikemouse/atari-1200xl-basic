@@ -125,7 +125,7 @@ With these series of commands, we have set the color of our Player 0, turned on 
     | Enable DMA                              |  *32* |
     +-------------------------------------------------+
 
-    64 = (standard playfield size + missiles and players + single line resolution _+ enable DMA)
+    64 = (standard playfield size + missiles and players + single line resolution + enable DMA)
     64 = 2 + 12 + 16 + 32
 
 And turned on graphics control so that our players are visible and triggers remain in the pressed state until reset.  See the following GRACTL bit table:
